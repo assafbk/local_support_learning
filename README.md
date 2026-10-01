@@ -30,8 +30,8 @@ cd local_support_learning
 
 The easiest way to get started is with the provided [`Dockerfile`](Dockerfile), which has all dependencies preinstalled. After cloning the repository (step 1), build and run the image:
 
-    docker build -t <name> .
-    docker run --gpus all -it -v $(pwd):/workspace <name>
+    docker build -t lsl_docker .
+    docker run --gpus "device=<your_device_idx>" -it -v $(pwd):/workspace lsl_docker
 
 Otherwise, follow the steps below:
 
