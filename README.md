@@ -50,7 +50,7 @@ source lsl/bin/activate
 
 ```bash
 pip install -r requirements.txt
-pip install flash-attn --no-build-isolation   # must come after torch is installed
+pip install flash-attn --no-build-isolation --no-cache-dir
 
 # ifeval (lm-eval) needs the punkt tokenizer data
 python -m nltk.downloader punkt_tab punkt
