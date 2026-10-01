@@ -13,6 +13,10 @@
 </p>
 <br>
 
+<p align="center">
+  <img src="assets/teaser.png" width="100%">
+</p>
+
 Continual fine-tuning with conditional LoRA adapters gated by GMM-based support estimation.
 
 ## Setup
