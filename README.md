@@ -21,9 +21,7 @@ Modern neural networks learn in phases: large-scale pretraining followed by smal
 
 ## Setup
 
-The easiest way is to use the NVIDIA PyTorch container `nvcr.io/nvidia/pytorch:25.10-py3` (PyTorch 2.9, CUDA 13.0) on a single GPU.
-
-If you use the provided [`Dockerfile`](Dockerfile), everything is already installed and you only need to clone the repository (step 1). Otherwise:
+The easiest way is to use the provided [`Dockerfile`](Dockerfile), everything is already installed and you only need to clone the repository (step 1). Otherwise:
 
 ### 1. Clone the repository
 
