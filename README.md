@@ -13,7 +13,7 @@
 </p>
 <br>
 
-Continual fine-tuning of `Qwen2.5-7B-Instruct` with conditional LoRA adapters gated by GMM-based support estimation.
+Continual fine-tuning with conditional LoRA adapters gated by GMM-based support estimation.
 
 ## Setup
 
