@@ -15,11 +15,36 @@
 
 Continual fine-tuning of `Qwen2.5-7B-Instruct` with conditional LoRA adapters gated by GMM-based support estimation.
 
-## Requirements
+## Setup
 
 Tested with the NVIDIA PyTorch container `nvcr.io/nvidia/pytorch:25.10-py3` (PyTorch 2.9, CUDA 13.0) on a single GPU.
 
-If you use the provided [`Dockerfile`](Dockerfile), everything is already installed and you can skip this step. Otherwise:
+If you use the provided [`Dockerfile`](Dockerfile), everything is already installed and you only need to clone the repository (step 1). Otherwise:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/assafbk/local_support_learning.git
+cd local_support_learning
+```
+
+### 2. Set up a virtual environment
+
+Using conda:
+
+```bash
+conda create -n lsl python=3.12
+conda activate lsl
+```
+
+Using venv:
+
+```bash
+python3.12 -m venv lsl
+source lsl/bin/activate
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -31,7 +56,7 @@ python -m nltk.downloader punkt_tab punkt
 
 All models and datasets are downloaded from the Hugging Face Hub on first use.
 
-## Running
+## Training
 
 ```bash
 export MASTER_ADDR=localhost
