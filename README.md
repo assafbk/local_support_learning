@@ -21,14 +21,19 @@ Modern neural networks learn in phases: large-scale pretraining followed by smal
 
 ## Setup
 
-The easiest way is to use the provided [`Dockerfile`](Dockerfile), everything is already installed and you only need to clone the repository (step 1). Otherwise:
-
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/assafbk/local_support_learning.git
 cd local_support_learning
 ```
+
+The easiest way to get started is with the provided [`Dockerfile`](Dockerfile), which has all dependencies preinstalled. After cloning the repository (step 1), build and run the image:
+
+    docker build -t <name> .
+    docker run --gpus all -it -v $(pwd):/workspace <name>
+
+Otherwise, follow the steps below:
 
 ### 2. Set up a virtual environment
 
