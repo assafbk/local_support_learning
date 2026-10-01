@@ -31,7 +31,7 @@ python -m nltk.downloader punkt_tab punkt
 
 All models and datasets are downloaded from the Hugging Face Hub on first use.
 
-## Running
+## Training
 
 ```bash
 export MASTER_ADDR=localhost
