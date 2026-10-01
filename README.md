@@ -13,11 +13,11 @@
 </p>
 <br>
 
+Modern neural networks learn in phases: large-scale pretraining followed by smaller finetuning phases. Catastrophic forgetting hurts this process, as each new phase can overwrite capabilities acquired in previous ones. We propose Local Support Learning (LSL), which keeps weight updates local to their training data, minimizing interference with prior capabilities and overcoming forgetting in LLMs of up to 7B parameters.
+
 <p align="center">
   <img src="assets/teaser.png" width="100%">
 </p>
-
-Continual fine-tuning with conditional LoRA adapters gated by GMM-based support estimation.
 
 ## Setup
 
