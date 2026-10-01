@@ -1,0 +1,9 @@
+tmp/*
+output/*
+logs/*
+results/*
+base_model_performance_cache/*
+wandb/*
+hf_home/*
+lm_eval_cache/*
+__pycache__/*
