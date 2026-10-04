@@ -7,7 +7,7 @@
 <a href="https://scholar.google.com/citations?user=pfGI-KcAAAAJ&hl=en">James Glass</a>,
 <a href="https://scholar.google.com/citations?user=9aQUYVQAAAAJ&hl=iw">Raja Giryes</a>
 
-<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg"></a>
+<a href="https://arxiv.org/abs/2610.02126"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg"></a>
 <a href="https://assafbk.github.io/lsl/"><img src="https://img.shields.io/badge/Project-Page-blue.svg"></a>
 
 </p>
@@ -129,11 +129,13 @@ Check out [`configs/config_continual.py`](configs/config_continual.py) for more 
 ## Citation
 
 ```bibtex
-@article{benkish2026lsl,
-  title   = {Local Support Learning},
-  author  = {Ben-Kish, Assaf and Kumar, Akarsh and
-             Glass, James and Giryes, Raja},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{benkish2026localsupportlearning,
+      title={Local Support Learning}, 
+      author={Assaf Ben-Kish and Akarsh Kumar and James Glass and Raja Giryes},
+      year={2026},
+      eprint={2610.02126},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.02126}, 
 }
 ```
