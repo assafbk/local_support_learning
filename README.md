@@ -7,7 +7,7 @@
 <a href="https://scholar.google.com/citations?user=pfGI-KcAAAAJ&hl=en">James Glass</a>,
 <a href="https://scholar.google.com/citations?user=9aQUYVQAAAAJ&hl=iw">Raja Giryes</a>
 
-<a href="https://arxiv.org/abs/2610.02126"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg"></a>
+<a href="https://arxiv.org/abs/2610.02126"><img src="https://img.shields.io/badge/arXiv-2610.02126-b31b1b.svg"></a>
 <a href="https://assafbk.github.io/lsl/"><img src="https://img.shields.io/badge/Project-Page-blue.svg"></a>
 
 </p>
